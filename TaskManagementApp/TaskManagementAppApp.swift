@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct TaskManagementAppApp: App {
@@ -15,7 +16,7 @@ struct TaskManagementAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainAppView()
         }
     }
 }
